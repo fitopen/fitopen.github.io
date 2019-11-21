@@ -3,6 +3,9 @@ markdown: kramdown
 permalink: /:year/:month/:day/:title
 title: Fit Open 
 timezone: UTC
+source: fitopen/fitopen.github.io
+url: https://www.fitopen.org
+
 collections:
   authors:
     output: true
