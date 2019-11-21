@@ -1,0 +1,8 @@
+- name: Home
+  link: /
+- name: About
+  link: /about.html
+- name: Contributors
+  link: /contributors.html
+- name: Mastodon
+  link: https://social.fitopen.org/

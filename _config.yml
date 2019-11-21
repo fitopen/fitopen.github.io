@@ -1,4 +1,27 @@
 auto: true
-markdown: rdiscount
+markdown: kramdown
 permalink: /:year/:month/:day/:title
-rdiscount extensions: [smart]
+collections:
+  authors:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "authors"
+    values:
+      layout: "author"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
