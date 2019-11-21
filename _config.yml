@@ -1,8 +1,16 @@
 auto: true
 markdown: kramdown
 permalink: /:year/:month/:day/:title
+title: Fit Open 
+timezone: UTC
 collections:
   authors:
+    output: true
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
     output: true
 
 defaults:
