@@ -1,0 +1,38 @@
+---
+title: Fit Open
+timezone: UTC
+collections:
+  authors:
+    title: Authors
+    output: true
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: authors
+  values:
+    layout: author
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+- scope:
+    path: ''
+  values:
+    layout: default
+source: fitopen/fitopen.github.io
+url: https://www.fitopen.org
+auto: true
+markdown: kramdown
+permalink: "/:year/:month/:day/:title"
+plugins:
+- jekyll-feed
+- jekyll-sitemap
+- jekyll-seo-tag
+- github-pages
