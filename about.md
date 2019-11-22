@@ -1,6 +1,7 @@
 ---
 title: About
 ---
+
 {% include navigation.html %}
 # About Fit Open
 
