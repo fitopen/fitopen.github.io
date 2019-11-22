@@ -1,7 +1,7 @@
 ---
 title: About
 ---
-{% include navigation.html %
+{% include navigation.html %}
 # About Fit Open
 
 <p>"If at first you don't succeed, dust yourself off and try again" Aaliyah Dana Haughton (1979-2001)</p>
