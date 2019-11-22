@@ -1,7 +1,7 @@
 ---
 title: About
 ---
-
+{% include navigation.html %
 # About Fit Open
 
 <p>"If at first you don't succeed, dust yourself off and try again" Aaliyah Dana Haughton (1979-2001)</p>
@@ -34,5 +34,3 @@ title: About
 
 
 <p>David Ross - 2017</p>
-
-<p><a href="/index.html">Home</a></p>
